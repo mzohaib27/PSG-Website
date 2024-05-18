@@ -1,0 +1,18 @@
+.bg {
+  color: #00ff00;
+}
+
+.extension-bg {
+  background-image: url(./assets/bluebg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 1;
+}

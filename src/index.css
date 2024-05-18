@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flexStart {
+  @apply flex justify-start items-center;
+}
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+.flexBetween {
+  @apply flex justify-between items-center;
+}
+.flexEnd {
+  @apply flex justify-end items-center;
+}
+
+.hover-eff {
+  @apply transition-all duration-700;
+}
