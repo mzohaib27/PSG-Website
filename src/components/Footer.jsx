@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="lg:flex ">
         <div className="flex gap-4 pb-4 justify-start items-start">
-          <img src={NavbarSec.logo} className="w-6 h-6 rounded-xl" alt="logo" />
+          <img src={NavbarSec.logo} className="w-8 h-8 rounded" alt="logo" />
           <h1 className="text-xl font-semibold">
             <span className="text-greenHigh">PSG</span> Wealth
           </h1>
