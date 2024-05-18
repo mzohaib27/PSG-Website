@@ -35,7 +35,7 @@ const OfferSection = () => {
             <h1 className={`${Styles.text} font-bold`}>{item.heading}</h1>
             <p className={`flex gap-4 text-xs md:text-base`}>
               {item.cardinfo.map((info, i) => (
-                <div>
+                <div key={i}>
                   <h1 className="font-semibold text-xs md:text-base">
                     {info.title}
                   </h1>

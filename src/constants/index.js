@@ -101,11 +101,11 @@ export const CardSec = [
     cardinfo: [
       {
         title: "Net Annual Rewards",
-        status: "860.82",
+        status: "$860.82",
       },
       {
         title: "Welcome Bonus",
-        status: "315",
+        status: "$315",
       },
       {
         title: "Credit Score",
