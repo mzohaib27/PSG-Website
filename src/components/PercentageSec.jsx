@@ -14,7 +14,7 @@ const PercentageSec = () => {
             {PercentageSection.heading}
           </h1>
           <p className={`${Styles.text}`}>{PercentageSection.text}</p>
-          <button className="flex items-center gap-4 px-6 py-2 rounded-lg bg-green-400">
+          <button className="flex items-center gap-2 px-6 py-2 rounded-lg bg-green-400">
             <RiDiscountPercentFill className="w-8 h-8" />
             <h1 className="text-base md:text-xl font-bold">
               {PercentageSection.button}
