@@ -27,13 +27,13 @@ const Footer = () => {
                     </h3>
                   ))}
               </h3>
-              <h1>{items.email}</h1>
-              <h1>{items.phone}</h1>
+              <h1 className="py-1 text-xs md:text-base">{items.email}</h1>
+              <h1 className="py-1 text-xs md:text-base">{items.phone}</h1>
             </div>
           ))}
         </div>
         <div className="flex flex-col space-y-4 my-6 lg:my-0">
-          <h1>Subscribe to our Newsletter</h1>
+          <h1 className={`${Styles.heading}`}>Subscribe to our Newsletter</h1>
           <div className="rounded-xl relative">
             <input
               type="text"
@@ -44,14 +44,17 @@ const Footer = () => {
               Submit
             </button>
           </div>
-          <p>
+          <p className="py-1 text-xs md:text-base">
             Rest assured, your email address is only used for sending
             newsletters.
           </p>
         </div>
       </div>
       <div className="border-t border-gray-400 md:flex md:justify-between px-4 md:px-0 py-2 space-y-2">
-        <h1> &copy; PSG Wealth 2024 All Rights Reserved.</h1>
+        <h1 className="py-1 text-xs md:text-base">
+          {" "}
+          &copy; PSG Wealth 2024 All Rights Reserved.
+        </h1>
         <div className="flex gap-4">
           <FaFacebook className="w-6 h-6 text-white hover:text-greenHigh hover-eff" />
           <FaLinkedin className="w-6 h-6 text-white hover:text-greenHigh hover-eff" />
