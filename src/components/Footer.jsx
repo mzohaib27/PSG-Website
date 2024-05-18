@@ -22,7 +22,7 @@ const Footer = () => {
               <h3>
                 {items.linkss &&
                   items.linkss.map((linkItem, j) => (
-                    <h3 key={j} className="py-1">
+                    <h3 key={j} className="py-1 text-xs md:text-base">
                       {linkItem.link}
                     </h3>
                   ))}
