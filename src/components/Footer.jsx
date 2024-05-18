@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 md:px-12 lg:px-16">
           {FooterLinks.map((items, i) => (
-            <div className="pb-8">
+            <div key={i} className="pb-8">
               <h2 className="text-xl font-semibold pb-2">{items.heading}</h2>
               <h3>
                 {items.linkss &&
@@ -54,7 +54,11 @@ const Footer = () => {
         <h1 className="py-1 text-xs md:text-base">
           {" "}
           &copy; PSG Wealth 2024 All Rights Reserved.
+          <p>
+            Website created by <span className="text-greenHigh">M Zohaib.</span>
+          </p>
         </h1>
+
         <div className="flex gap-4">
           <FaFacebook className="w-6 h-6 text-white hover:text-greenHigh hover-eff" />
           <FaLinkedin className="w-6 h-6 text-white hover:text-greenHigh hover-eff" />
