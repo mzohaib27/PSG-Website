@@ -20,7 +20,7 @@ const OfferSection = () => {
           <img src={OfferSec.offerImage} alt="" className="rounded-xl" />
         </div>
       </div>
-      <div className="lg:flex lg:items-center lg:justify-center lg:gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:items-center lg:justify-center md:gap-2 lg:gap-4">
         {CardSec.map((item, i) => (
           <div
             className={`flex flex-col space-y-2 rounded-xl bg-white p-4 my-4`}
@@ -36,7 +36,9 @@ const OfferSection = () => {
             <p className={`flex gap-4 text-xs md:text-base`}>
               {item.cardinfo.map((info, i) => (
                 <div>
-                  <h1>{info.title}</h1>
+                  <h1 className="font-semibold text-xs md:text-base">
+                    {info.title}
+                  </h1>
                   <p>{info.status}</p>
                 </div>
               ))}

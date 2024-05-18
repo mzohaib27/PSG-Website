@@ -70,7 +70,9 @@ const PercentageSec = () => {
             <div>
               <button className="flex items-center justify-center gap-4 px-6 py-2 rounded-lg bg-green-200 text-black">
                 <BiSolidExtension className="w-6 h-6" />
-                <h1 className="text-lg font-semibold">{Extenstion.button}</h1>
+                <h1 className="text-base md:text-lg font-semibold">
+                  {Extenstion.button}
+                </h1>
               </button>
             </div>
           </div>
